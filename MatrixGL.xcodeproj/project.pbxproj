@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42F5CCB26A2016B00E5E021 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F42F5CC926A2016B00E5E021 /* thumbnail.png */; };
+		F42F5CCC26A2016B00E5E021 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F42F5CCA26A2016B00E5E021 /* thumbnail@2x.png */; };
+		F42F5CCF26A2019600E5E021 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F42F5CCD26A2019600E5E021 /* Localizable.strings */; };
+		F42F5CD326A2056D00E5E021 /* MGLConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F42F5CD526A2056D00E5E021 /* MGLConfigurationWindowController.xib */; };
+		F4C09F561BDD399F0061B41A /* MGLMatrixGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C09F551BDD399F0061B41A /* MGLMatrixGLView.h */; };
+		F4C09F581BDD399F0061B41A /* MGLMatrixGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09F571BDD399F0061B41A /* MGLMatrixGLView.m */; };
+		F4C09F631BDD3B8C0061B41A /* MGLConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C09F601BDD3B8C0061B41A /* MGLConfigurationWindowController.h */; };
+		F4C09F641BDD3B8C0061B41A /* MGLConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09F611BDD3B8C0061B41A /* MGLConfigurationWindowController.m */; };
+		F4C09F6A1BDD3CE30061B41A /* MGLAboutBoxWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C09F671BDD3CE30061B41A /* MGLAboutBoxWindowController.h */; };
+		F4C09F6B1BDD3CE30061B41A /* MGLAboutBoxWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09F681BDD3CE30061B41A /* MGLAboutBoxWindowController.m */; };
+		F4C09F6C1BDD3CE30061B41A /* MGLAboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C09F691BDD3CE30061B41A /* MGLAboutBoxWindowController.xib */; };
+		F4C09F731BDD3CED0061B41A /* MGLLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C09F6D1BDD3CED0061B41A /* MGLLightGrayBackgroundView.h */; };
+		F4C09F741BDD3CED0061B41A /* MGLLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09F6E1BDD3CED0061B41A /* MGLLightGrayBackgroundView.m */; };
+		F4C09F751BDD3CED0061B41A /* MGLSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C09F6F1BDD3CED0061B41A /* MGLSecondaryBox.h */; };
+		F4C09F761BDD3CED0061B41A /* MGLSecondaryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09F701BDD3CED0061B41A /* MGLSecondaryBox.m */; };
+		F4C09F771BDD3CED0061B41A /* MGLWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C09F711BDD3CED0061B41A /* MGLWindow.h */; };
+		F4C09F781BDD3CED0061B41A /* MGLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09F721BDD3CED0061B41A /* MGLWindow.m */; };
+		F4C09F7B1BDD3D480061B41A /* MGLUserDefaults+Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C09F791BDD3D480061B41A /* MGLUserDefaults+Constants.h */; };
+		F4C09F7C1BDD3D480061B41A /* MGLUserDefaults+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09F7A1BDD3D480061B41A /* MGLUserDefaults+Constants.m */; };
+		F4C09F7F1BDD3ED40061B41A /* MGLSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C09F7D1BDD3ED40061B41A /* MGLSettings.h */; };
+		F4C09F801BDD3ED40061B41A /* MGLSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09F7E1BDD3ED40061B41A /* MGLSettings.m */; };
+		F4C09F8A1BDD40F20061B41A /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = F4C09F851BDD40F20061B41A /* matrix.c */; };
+		F4C09F8B1BDD40F20061B41A /* matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C09F861BDD40F20061B41A /* matrix.h */; };
+		F4C09F8C1BDD40F20061B41A /* matrix1.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C09F871BDD40F20061B41A /* matrix1.h */; };
+		F4C09F8D1BDD40F20061B41A /* matrix2.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C09F881BDD40F20061B41A /* matrix2.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F42F5CC926A2016B00E5E021 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		F42F5CCA26A2016B00E5E021 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		F42F5CCE26A2019600E5E021 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F42F5CD426A2056D00E5E021 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MGLConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F42F5CD626A2058100E5E021 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/MGLConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F42F5CD726A2058100E5E021 /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F434CAB926A22D13006DF344 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MGLConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F434CABA26A22D13006DF344 /* es */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4C09F501BDD399F0061B41A /* MatrixGL.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixGL.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C09F541BDD399F0061B41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C09F551BDD399F0061B41A /* MGLMatrixGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGLMatrixGLView.h; sourceTree = "<group>"; };
+		F4C09F571BDD399F0061B41A /* MGLMatrixGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGLMatrixGLView.m; sourceTree = "<group>"; };
+		F4C09F601BDD3B8C0061B41A /* MGLConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLConfigurationWindowController.h; sourceTree = "<group>"; };
+		F4C09F611BDD3B8C0061B41A /* MGLConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLConfigurationWindowController.m; sourceTree = "<group>"; };
+		F4C09F671BDD3CE30061B41A /* MGLAboutBoxWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLAboutBoxWindowController.h; sourceTree = "<group>"; };
+		F4C09F681BDD3CE30061B41A /* MGLAboutBoxWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLAboutBoxWindowController.m; sourceTree = "<group>"; };
+		F4C09F691BDD3CE30061B41A /* MGLAboutBoxWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGLAboutBoxWindowController.xib; sourceTree = "<group>"; };
+		F4C09F6D1BDD3CED0061B41A /* MGLLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLLightGrayBackgroundView.h; sourceTree = "<group>"; };
+		F4C09F6E1BDD3CED0061B41A /* MGLLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLLightGrayBackgroundView.m; sourceTree = "<group>"; };
+		F4C09F6F1BDD3CED0061B41A /* MGLSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLSecondaryBox.h; sourceTree = "<group>"; };
+		F4C09F701BDD3CED0061B41A /* MGLSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLSecondaryBox.m; sourceTree = "<group>"; };
+		F4C09F711BDD3CED0061B41A /* MGLWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLWindow.h; sourceTree = "<group>"; };
+		F4C09F721BDD3CED0061B41A /* MGLWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLWindow.m; sourceTree = "<group>"; };
+		F4C09F791BDD3D480061B41A /* MGLUserDefaults+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MGLUserDefaults+Constants.h"; sourceTree = "<group>"; };
+		F4C09F7A1BDD3D480061B41A /* MGLUserDefaults+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MGLUserDefaults+Constants.m"; sourceTree = "<group>"; };
+		F4C09F7D1BDD3ED40061B41A /* MGLSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLSettings.h; sourceTree = "<group>"; };
+		F4C09F7E1BDD3ED40061B41A /* MGLSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLSettings.m; sourceTree = "<group>"; };
+		F4C09F851BDD40F20061B41A /* matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = matrix.c; path = GPL/matrix.c; sourceTree = "<group>"; };
+		F4C09F861BDD40F20061B41A /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = GPL/matrix.h; sourceTree = "<group>"; };
+		F4C09F871BDD40F20061B41A /* matrix1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = matrix1.h; path = GPL/matrix1.h; sourceTree = "<group>"; };
+		F4C09F881BDD40F20061B41A /* matrix2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = matrix2.h; path = GPL/matrix2.h; sourceTree = "<group>"; };
+		F4D1F5E726A0E8F80071A216 /* SharedConfigurationSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SharedConfigurationSettings.xcconfig; path = ../Configs/SharedConfigurationSettings.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C09F4C1BDD399F0061B41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4C09F461BDD399F0061B41A = {
+			isa = PBXGroup;
+			children = (
+				F4D1F5E726A0E8F80071A216 /* SharedConfigurationSettings.xcconfig */,
+				F4C09F521BDD399F0061B41A /* MatrixGL */,
+				F4C09F511BDD399F0061B41A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4C09F511BDD399F0061B41A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C09F501BDD399F0061B41A /* MatrixGL.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C09F521BDD399F0061B41A /* MatrixGL */ = {
+			isa = PBXGroup;
+			children = (
+				F4C09F791BDD3D480061B41A /* MGLUserDefaults+Constants.h */,
+				F4C09F7A1BDD3D480061B41A /* MGLUserDefaults+Constants.m */,
+				F4C09F841BDD40D50061B41A /* GPL */,
+				F4C09F7D1BDD3ED40061B41A /* MGLSettings.h */,
+				F4C09F7E1BDD3ED40061B41A /* MGLSettings.m */,
+				F4C09F551BDD399F0061B41A /* MGLMatrixGLView.h */,
+				F4C09F571BDD399F0061B41A /* MGLMatrixGLView.m */,
+				F4C09F5E1BDD3B4E0061B41A /* Configuration */,
+				F4C09F531BDD399F0061B41A /* Resources */,
+			);
+			path = MatrixGL;
+			sourceTree = "<group>";
+		};
+		F4C09F531BDD399F0061B41A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4C09F541BDD399F0061B41A /* Info.plist */,
+				F42F5CCD26A2019600E5E021 /* Localizable.strings */,
+				F4C09F5F1BDD3B630061B41A /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4C09F5E1BDD3B4E0061B41A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F4C09F661BDD3C7C0061B41A /* Custom Views */,
+				F4C09F671BDD3CE30061B41A /* MGLAboutBoxWindowController.h */,
+				F4C09F681BDD3CE30061B41A /* MGLAboutBoxWindowController.m */,
+				F4C09F691BDD3CE30061B41A /* MGLAboutBoxWindowController.xib */,
+				F4C09F601BDD3B8C0061B41A /* MGLConfigurationWindowController.h */,
+				F4C09F611BDD3B8C0061B41A /* MGLConfigurationWindowController.m */,
+				F42F5CD526A2056D00E5E021 /* MGLConfigurationWindowController.xib */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		F4C09F5F1BDD3B630061B41A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F42F5CC926A2016B00E5E021 /* thumbnail.png */,
+				F42F5CCA26A2016B00E5E021 /* thumbnail@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F4C09F661BDD3C7C0061B41A /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4C09F6D1BDD3CED0061B41A /* MGLLightGrayBackgroundView.h */,
+				F4C09F6E1BDD3CED0061B41A /* MGLLightGrayBackgroundView.m */,
+				F4C09F6F1BDD3CED0061B41A /* MGLSecondaryBox.h */,
+				F4C09F701BDD3CED0061B41A /* MGLSecondaryBox.m */,
+				F4C09F711BDD3CED0061B41A /* MGLWindow.h */,
+				F4C09F721BDD3CED0061B41A /* MGLWindow.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		F4C09F841BDD40D50061B41A /* GPL */ = {
+			isa = PBXGroup;
+			children = (
+				F4C09F871BDD40F20061B41A /* matrix1.h */,
+				F4C09F881BDD40F20061B41A /* matrix2.h */,
+				F4C09F861BDD40F20061B41A /* matrix.h */,
+				F4C09F851BDD40F20061B41A /* matrix.c */,
+			);
+			name = GPL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4C09F4D1BDD399F0061B41A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C09F731BDD3CED0061B41A /* MGLLightGrayBackgroundView.h in Headers */,
+				F4C09F8D1BDD40F20061B41A /* matrix2.h in Headers */,
+				F4C09F771BDD3CED0061B41A /* MGLWindow.h in Headers */,
+				F4C09F751BDD3CED0061B41A /* MGLSecondaryBox.h in Headers */,
+				F4C09F8C1BDD40F20061B41A /* matrix1.h in Headers */,
+				F4C09F8B1BDD40F20061B41A /* matrix.h in Headers */,
+				F4C09F7B1BDD3D480061B41A /* MGLUserDefaults+Constants.h in Headers */,
+				F4C09F7F1BDD3ED40061B41A /* MGLSettings.h in Headers */,
+				F4C09F631BDD3B8C0061B41A /* MGLConfigurationWindowController.h in Headers */,
+				F4C09F6A1BDD3CE30061B41A /* MGLAboutBoxWindowController.h in Headers */,
+				F4C09F561BDD399F0061B41A /* MGLMatrixGLView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F4C09F4F1BDD399F0061B41A /* MatrixGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C09F5B1BDD399F0061B41A /* Build configuration list for PBXNativeTarget "MatrixGL" */;
+			buildPhases = (
+				F4C09F4B1BDD399F0061B41A /* Sources */,
+				F4C09F4C1BDD399F0061B41A /* Frameworks */,
+				F4C09F4D1BDD399F0061B41A /* Headers */,
+				F4C09F4E1BDD399F0061B41A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrixGL;
+			productName = MatrixGL;
+			productReference = F4C09F501BDD399F0061B41A /* MatrixGL.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4C09F471BDD399F0061B41A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = stephane;
+				TargetAttributes = {
+					F4C09F4F1BDD399F0061B41A = {
+						CreatedOnToolsVersion = 6.3;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = F4C09F4A1BDD399F0061B41A /* Build configuration list for PBXProject "MatrixGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				es,
+			);
+			mainGroup = F4C09F461BDD399F0061B41A;
+			productRefGroup = F4C09F511BDD399F0061B41A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C09F4F1BDD399F0061B41A /* MatrixGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C09F4E1BDD399F0061B41A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F5CCF26A2019600E5E021 /* Localizable.strings in Resources */,
+				F4C09F6C1BDD3CE30061B41A /* MGLAboutBoxWindowController.xib in Resources */,
+				F42F5CCC26A2016B00E5E021 /* thumbnail@2x.png in Resources */,
+				F42F5CD326A2056D00E5E021 /* MGLConfigurationWindowController.xib in Resources */,
+				F42F5CCB26A2016B00E5E021 /* thumbnail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C09F4B1BDD399F0061B41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C09F581BDD399F0061B41A /* MGLMatrixGLView.m in Sources */,
+				F4C09F801BDD3ED40061B41A /* MGLSettings.m in Sources */,
+				F4C09F761BDD3CED0061B41A /* MGLSecondaryBox.m in Sources */,
+				F4C09F741BDD3CED0061B41A /* MGLLightGrayBackgroundView.m in Sources */,
+				F4C09F6B1BDD3CE30061B41A /* MGLAboutBoxWindowController.m in Sources */,
+				F4C09F8A1BDD40F20061B41A /* matrix.c in Sources */,
+				F4C09F781BDD3CED0061B41A /* MGLWindow.m in Sources */,
+				F4C09F641BDD3B8C0061B41A /* MGLConfigurationWindowController.m in Sources */,
+				F4C09F7C1BDD3D480061B41A /* MGLUserDefaults+Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F42F5CCD26A2019600E5E021 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42F5CCE26A2019600E5E021 /* en */,
+				F42F5CD726A2058100E5E021 /* fr */,
+				F434CABA26A22D13006DF344 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F42F5CD526A2056D00E5E021 /* MGLConfigurationWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42F5CD426A2056D00E5E021 /* en */,
+				F42F5CD626A2058100E5E021 /* fr */,
+				F434CAB926A22D13006DF344 /* es */,
+			);
+			name = MGLConfigurationWindowController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4C09F591BDD399F0061B41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Debug;
+		};
+		F4C09F5A1BDD399F0061B41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+		F4C09F5C1BDD399F0061B41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D1F5E726A0E8F80071A216 /* SharedConfigurationSettings.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				INFOPLIST_FILE = MatrixGL/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		F4C09F5D1BDD399F0061B41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D1F5E726A0E8F80071A216 /* SharedConfigurationSettings.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				INFOPLIST_FILE = MatrixGL/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C09F4A1BDD399F0061B41A /* Build configuration list for PBXProject "MatrixGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C09F591BDD399F0061B41A /* Debug */,
+				F4C09F5A1BDD399F0061B41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C09F5B1BDD399F0061B41A /* Build configuration list for PBXNativeTarget "MatrixGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C09F5C1BDD399F0061B41A /* Debug */,
+				F4C09F5D1BDD399F0061B41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4C09F471BDD399F0061B41A /* Project object */;
+}
