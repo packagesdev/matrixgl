@@ -43,7 +43,7 @@
 		F42F5CD726A2058100E5E021 /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F434CAB926A22D13006DF344 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MGLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F434CABA26A22D13006DF344 /* es */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F4C09F501BDD399F0061B41A /* MatrixGL.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixGL.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C09F501BDD399F0061B41A /* matrixgl.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = matrixgl.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C09F541BDD399F0061B41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4C09F551BDD399F0061B41A /* MGLMatrixGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGLMatrixGLView.h; sourceTree = "<group>"; };
 		F4C09F571BDD399F0061B41A /* MGLMatrixGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGLMatrixGLView.m; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				F4D1F5E726A0E8F80071A216 /* SharedConfigurationSettings.xcconfig */,
-				F4C09F521BDD399F0061B41A /* MatrixGL */,
+				F4C09F521BDD399F0061B41A /* matrixgl */,
 				F4C09F511BDD399F0061B41A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,12 +92,12 @@
 		F4C09F511BDD399F0061B41A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4C09F501BDD399F0061B41A /* MatrixGL.saver */,
+				F4C09F501BDD399F0061B41A /* matrixgl.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4C09F521BDD399F0061B41A /* MatrixGL */ = {
+		F4C09F521BDD399F0061B41A /* matrixgl */ = {
 			isa = PBXGroup;
 			children = (
 				F4C09F791BDD3D480061B41A /* MGLUserDefaults+Constants.h */,
@@ -110,7 +110,7 @@
 				F4C09F5E1BDD3B4E0061B41A /* Configuration */,
 				F4C09F531BDD399F0061B41A /* Resources */,
 			);
-			path = MatrixGL;
+			path = matrixgl;
 			sourceTree = "<group>";
 		};
 		F4C09F531BDD399F0061B41A /* Resources */ = {
@@ -194,9 +194,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F4C09F4F1BDD399F0061B41A /* MatrixGL */ = {
+		F4C09F4F1BDD399F0061B41A /* matrixgl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4C09F5B1BDD399F0061B41A /* Build configuration list for PBXNativeTarget "MatrixGL" */;
+			buildConfigurationList = F4C09F5B1BDD399F0061B41A /* Build configuration list for PBXNativeTarget "matrixgl" */;
 			buildPhases = (
 				F4C09F4B1BDD399F0061B41A /* Sources */,
 				F4C09F4C1BDD399F0061B41A /* Frameworks */,
@@ -207,9 +207,9 @@
 			);
 			dependencies = (
 			);
-			name = MatrixGL;
+			name = matrixgl;
 			productName = MatrixGL;
-			productReference = F4C09F501BDD399F0061B41A /* MatrixGL.saver */;
+			productReference = F4C09F501BDD399F0061B41A /* matrixgl.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -227,11 +227,12 @@
 					};
 				};
 			};
-			buildConfigurationList = F4C09F4A1BDD399F0061B41A /* Build configuration list for PBXProject "MatrixGL" */;
+			buildConfigurationList = F4C09F4A1BDD399F0061B41A /* Build configuration list for PBXProject "matrixgl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				fr,
 				es,
@@ -241,7 +242,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4C09F4F1BDD399F0061B41A /* MatrixGL */,
+				F4C09F4F1BDD399F0061B41A /* matrixgl */,
 			);
 		};
 /* End PBXProject section */
@@ -384,9 +385,10 @@
 			baseConfigurationReference = F4D1F5E726A0E8F80071A216 /* SharedConfigurationSettings.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
-				INFOPLIST_FILE = MatrixGL/Info.plist;
+				CURRENT_PROJECT_VERSION = 6;
+				INFOPLIST_FILE = matrixgl/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.zolotov.alex.matrixgl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = saver;
@@ -398,9 +400,10 @@
 			baseConfigurationReference = F4D1F5E726A0E8F80071A216 /* SharedConfigurationSettings.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
-				INFOPLIST_FILE = MatrixGL/Info.plist;
+				CURRENT_PROJECT_VERSION = 6;
+				INFOPLIST_FILE = matrixgl/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.zolotov.alex.matrixgl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = saver;
@@ -410,7 +413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4C09F4A1BDD399F0061B41A /* Build configuration list for PBXProject "MatrixGL" */ = {
+		F4C09F4A1BDD399F0061B41A /* Build configuration list for PBXProject "matrixgl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4C09F591BDD399F0061B41A /* Debug */,
@@ -419,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4C09F5B1BDD399F0061B41A /* Build configuration list for PBXNativeTarget "MatrixGL" */ = {
+		F4C09F5B1BDD399F0061B41A /* Build configuration list for PBXNativeTarget "matrixgl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4C09F5C1BDD399F0061B41A /* Debug */,

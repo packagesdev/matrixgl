@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MatrixGL.xcodeproj">
+      location = "self:/Volumes/Beta OS/Users/Shared/Projects/OS X/MatrixGL/matrixgl/matrixgl.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "1110"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,55 +15,45 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4C09F4F1BDD399F0061B41A"
-               BuildableName = "MatrixGL.saver"
-               BlueprintName = "MatrixGL"
-               ReferencedContainer = "container:MatrixGL.xcodeproj">
+               BuildableName = "matrixgl.saver"
+               BlueprintName = "matrixgl"
+               ReferencedContainer = "container:matrixgl.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4C09F4F1BDD399F0061B41A"
-            BuildableName = "MatrixGL.saver"
-            BlueprintName = "MatrixGL"
-            ReferencedContainer = "container:MatrixGL.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4C09F4F1BDD399F0061B41A"
-            BuildableName = "MatrixGL.saver"
-            BlueprintName = "MatrixGL"
-            ReferencedContainer = "container:MatrixGL.xcodeproj">
+            BuildableName = "matrixgl.saver"
+            BlueprintName = "matrixgl"
+            ReferencedContainer = "container:matrixgl.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
